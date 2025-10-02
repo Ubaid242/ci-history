@@ -4,7 +4,7 @@ Branch: refs/heads/main
 Actor: Ubaid242
 
 NPM: 
-added 66 packages, and audited 415 packages in 2s
+added 66 packages, and audited 415 packages in 6s
 
 73 packages are looking for funding
   run `npm fund` for details
@@ -15,23 +15,23 @@ Format:
 > first-workflow@1.0.0 format
 > prettier --write .
 
-.eslintrc.js 46ms
-[90m.github/workflows/ci.yml[39m 34ms (unchanged)
-[90m.prettierrc[39m 9ms (unchanged)
-[90mpackage-lock.json[39m 215ms (unchanged)
-[90mpackage.json[39m 10ms (unchanged)
+.eslintrc.js 47ms
+[90m.github/workflows/ci.yml[39m 36ms (unchanged)
+[90m.prettierrc[39m 6ms (unchanged)
+[90mpackage-lock.json[39m 187ms (unchanged)
+[90mpackage.json[39m 37ms (unchanged)
 src/app.js 7ms
-src/controllers/user.controller.js 36ms
+src/controllers/user.controller.js 35ms
 [90msrc/models/user.model.js[39m 1ms (unchanged)
-src/routes/user.routes.js 31ms
+src/routes/user.routes.js 43ms
 [90msrc/services/user.service.js[39m 1ms (unchanged)
-tests/user.test.js 12ms
+tests/user.test.js 11ms
 
 Lint: 
 > first-workflow@1.0.0 lint
 > eslint . --ext .js,.ts
 
-(node:1994) ESLintIgnoreWarning: The ".eslintignore" file is no longer supported. Switch to using the "ignores" property in "eslint.config.js": https://eslint.org/docs/latest/use/configure/migration-guide#ignoring-files
+(node:1993) ESLintIgnoreWarning: The ".eslintignore" file is no longer supported. Switch to using the "ignores" property in "eslint.config.js": https://eslint.org/docs/latest/use/configure/migration-guide#ignoring-files
 (Use `node --trace-warnings ...` to show where the warning was created)
 
 Oops! Something went wrong! :(
@@ -56,13 +56,13 @@ Test:
 
 PASS tests/user.test.js
   User Routes
-    ✓ GET /api/users → should return list of users (55 ms)
+    ✓ GET /api/users → should return list of users (56 ms)
     ✓ POST /api/users → should create new user (20 ms)
-    ✓ POST /api/users → should return 400 if name missing (3 ms)
+    ✓ POST /api/users → should return 400 if name missing (4 ms)
 
 Test Suites: 1 passed, 1 total
 Tests:       3 passed, 3 total
 Snapshots:   0 total
-Time:        0.668 s
+Time:        0.612 s
 Ran all test suites.
 
